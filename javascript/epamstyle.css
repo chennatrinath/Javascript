@@ -1,0 +1,171 @@
+.forminputdesign{
+	width: 100%;
+	overflow-x: hidden;
+	overflow-y: hidden;
+	border-style: none;
+	border-spacing: 10px;
+	text-decoration-color: #767676;
+	align-content: center;
+	
+}
+
+.formdivdesign{
+	margin: 30px;
+}
+.forminputdivdesign{
+	border : 1px solid grey;
+	padding: 10px;
+	margin-bottom: 10px; 
+}
+
+
+
+.formsigninbuttondesign{
+	width: 100%;
+	background-color : #77CED9;
+	border-radius: 4px;
+	color : #ffffff;
+	border-collapse: true;
+	align-content: center;
+	border: none;
+	font-size: 20px;
+	padding: 10px;
+
+}
+.headertextdesign{
+	width: 100%;
+	float: center;
+	color: #ffffff;
+}
+header{
+	width: 100%;
+    background-color: #77CED9;
+}
+
+.completebox{
+	width: 100%;
+	border: 2px solid grey;
+	border-radius: 5px;
+	background: #ffffff;
+}
+.headerdiv{
+	padding: 10px;
+	color: #ffffff;
+	text-align: center;
+	font-size: 30px;
+}
+
+.registerdesign{
+	float: right;
+	color: grey;
+}
+.forgotpassworddesign{
+	float: left;
+	color: grey;
+}
+.forgotandregisterdivdesign{
+	padding: 10px
+}
+p {
+    overflow: hidden;
+    text-align: center;
+    color: grey;
+}
+p:before,
+p:after {
+    background-color: grey;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 50%;
+}
+p:before {
+    right: 0.5em;
+     margin-left: -50%;
+    color: grey;
+}
+p:after {
+    left: 0.5em;
+    margin-right: -50%;
+    color: grey;
+} 
+#ordiv{
+	margin-bottom: 10px;
+}
+.facebookbutton{
+	width: 100%;
+	background-color: #3C5A99;
+	border-radius: 5px;
+	border-collapse: true;
+	align-content: center;
+	border: none;
+	padding: 10px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+.googlebutton{
+	width: 100%;
+	background-color: #E47C6D;
+	border-radius: 5px;
+	border-collapse: true;
+	align-content: center;
+	border: none;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	padding: 10px;
+}
+.socialbuttonsdivdesign{
+	margin-top: 20px;
+}
+.epamloginbutton{
+	width: 100%;
+	color: #ffffff;
+	text-align: center;
+	padding: 10px;
+	font-size: 20px;
+	border-radius: 5px;
+	border-collapse: true;
+	align-content: center;
+	border: none;
+	background-color: #CEDB56;
+	text-decoration-style: bold;
+}
+.epamlogindiv{
+	margin-top: 20px;
+	margin-bottom:50px; 
+}
+.container{
+	margin: auto;
+	width: 100%;
+	overflow-x:hidden; 
+}
+
+/*MEDIA QUERIES*/
+
+@media (min-width: 320px){
+	.container{
+		width: 320px;
+	}
+}
+@media (min-width: 481px){
+	.container{
+		width: 481px;
+	}
+}
+@media (min-width: 641px){
+	.container{
+		width: 641px;
+	}
+}
+@media (min-width: 961px){
+	.container{
+		width: 961px;
+	}
+}
+@media (min-width: 1024px){
+	.container{
+		width: 1024px;
+	}
+}

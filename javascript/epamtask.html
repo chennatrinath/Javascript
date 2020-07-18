@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Epam Task</title>
+	<link rel="stylesheet" type="text/css" href="epamstyle.css">
+	<style>
+    input:focus, textarea:focus, select:focus{
+        outline: none;
+    }
+</style>
+</head>
+<body class="container">
+	<div class="completebox">
+			<header>
+				<div class="headerdiv"><b>sign in</b></div>
+			</header>	
+		<div class="formdivdesign">
+			<form name = "login" id="login">
+				<div >
+					<div class="forminputdivdesign" >
+						<input type="text" name="gmail" placeholder="mail@example.com" class="forminputdesign" required="Required">
+					</div>
+					<div class="forminputdivdesign">
+						<input type="password" name="password" placeholder="password" class="forminputdesign" required="Required">
+					</div>
+				</div>
+				<br>
+				<div>
+					<input type="button" class="formsigninbuttondesign" onclick="check(this.id)" value="SIGN UP"/>
+				</div>
+			</form>
+			<br>
+			<div class="forgotandregisterdivdesign">
+				<span class="forgotpassworddesign" onclick="forgot()">Forgot your Password?</span>
+				<span class="registerdesign" onclick="register()">Register!</span>
+			</div>
+			<br>
+			<br>
+			<div id="ordiv">
+				<p style="font-size: 20px">OR</p>
+			</div>	
+			<br>
+			<div class="socialbuttonsdivdesign">
+				<button class="facebookbutton">
+					<img src="img/f.png" alt="facebook login">
+				</button>
+				<button class="googlebutton">
+					<img src="img/g.png" alt="facebook login">
+				</button>
+			</div>
+			<br>
+			<div class="epamlogindiv">
+				<button class="epamloginbutton">< <b>EPAM LOGIN</b> ></button>
+			</div>
+		</div>
+		
+	</div>
+	<script language="javascript">
+			function check(id)/*function to check userid & password*/
+				{
+						
+					if(login.gmail.value == "trinath" && login.password.value == "trinath")
+					{
+						alert("Wlcome");
+					}
+					else
+					{
+						alert("Error Password or Username");
+					}
+
+				}
+			function register(){
+				alert("Registering User...");
+			}
+			function forgot(){
+				alert("Retriving User...");
+			}	
+	</script>
+
+</body>
+</html>
